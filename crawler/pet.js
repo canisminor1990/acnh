@@ -60,7 +60,9 @@ const PetPage = new Crawler({
 				                            data[name].nameEN = jpen[0];
 				                            data[name].nameJP = jpen[1].replace("(日)", '').replace(/\s*/g,"");
 			                            }
-			                            if (name === '阿研') fs.writeFileSync('data/pet.json', JSON.stringify(data));
+			                            if (name === '阿研') {
+				                            fs.writeFileSync('data/pet.json', JSON.stringify(data))
+			                            };
 		                            }
 		                            done();
 	                            }
