@@ -6,7 +6,8 @@
   "scripts": {
     "getPet": "babel-node crawler/pet.js --plugins @babel/plugin-transform-modules-commonjs",
     "getClothe": "babel-node crawler/clothe.js --plugins @babel/plugin-transform-modules-commonjs",
-    "getFurniture": "babel-node crawler/furniture.js --plugins @babel/plugin-transform-modules-commonjs"
+    "getFurniture": "babel-node crawler/furniture.js --plugins @babel/plugin-transform-modules-commonjs",
+    "getFish": "babel-node crawler/fish.js --plugins @babel/plugin-transform-modules-commonjs"
   },
   "dependencies": {
     "crawler": "^1.2.1"
