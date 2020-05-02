@@ -17,7 +17,7 @@ const getData = (filename, url) => {
 					                         const name        = tdArr.eq(0).find('a').attr('title');
 					                         let img         = tdArr.eq(0).find('img').attr('src');
 					                         const place     = tdArr.eq(1).text().replace(/\n/g, '');
-					                         const weather     = tdArr.eq(2).text().replace(/\n/g, '');
+					                         const note     = tdArr.eq(2).text().replace(/\n/g, '');
 					                         let monthN     = tdArr.eq(3).text().replace(/\n/g, '').replace('（全年）、','').split('、');
 					                         let monthS     = tdArr.eq(4).text().replace(/\n/g, '').replace('（全年）、','').split('、');
 					                         let time     = tdArr.eq(5).text().replace(/\n/g, '').replace('（全天）、','').split('、');
@@ -27,7 +27,7 @@ const getData = (filename, url) => {
 						                         data[name] = {
 							                         img,
 							                         place,
-							                         weather,
+							                         note,
 							                         monthN:handleNum(monthN),
 							                         monthS:handleNum(monthS),
 							                         time:handleNum(time),
