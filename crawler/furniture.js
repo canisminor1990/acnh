@@ -25,7 +25,7 @@ const getData = (filename, url) => {
 						                         img  = img.replace('https://patchwiki.biligame.com/images/dongsen', '');
 						                         if (!data[name]) {
 							                         data[name] = {
-								                         img: [img],
+								                         img: [],
 								                         price: parseInt(price),
 								                         type,
 								                         orderType,
