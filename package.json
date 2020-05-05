@@ -8,7 +8,10 @@
     "getClothe": "babel-node crawler/clothe.js --plugins @babel/plugin-transform-modules-commonjs",
     "getFurniture": "babel-node crawler/furniture.js --plugins @babel/plugin-transform-modules-commonjs",
     "getFish": "babel-node crawler/fish.js --plugins @babel/plugin-transform-modules-commonjs",
-    "getDIY": "babel-node crawler/diy.js --plugins @babel/plugin-transform-modules-commonjs"
+    "getDIY": "babel-node crawler/diy.js --plugins @babel/plugin-transform-modules-commonjs",
+    "getCD": "babel-node crawler/cd.js --plugins @babel/plugin-transform-modules-commonjs",
+    "getArts": "babel-node crawler/arts.js --plugins @babel/plugin-transform-modules-commonjs",
+    "getFossil": "babel-node crawler/fossil.js --plugins @babel/plugin-transform-modules-commonjs"
   },
   "dependencies": {
     "crawler": "^1.2.1"
