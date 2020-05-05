@@ -32,4 +32,4 @@ const getData = (filename, url) => {
 	Func.queue(url);
 };
 
-getData('data/fossil.json', 'https://wiki.biligame.com/dongsen/%E5%8C%96%E7%9F%B3%E5%9B%BE%E9%89%B4');
+getData('data/handbook-fossil.json', 'https://wiki.biligame.com/dongsen/%E5%8C%96%E7%9F%B3%E5%9B%BE%E9%89%B4');
